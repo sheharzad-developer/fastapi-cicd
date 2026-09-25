@@ -3,7 +3,8 @@
 A small REST API for managing tasks, built with FastAPI, containerized with Docker,
 tested and published by a GitHub Actions pipeline, and deployed on AWS EC2.
 
-**Live demo:** http://100.55.31.106/docs
+**Deployment:** deployed on AWS EC2 during development, then terminated to avoid charges.
+See the Deploy to AWS section to recreate it.
 
 ## Tech stack
 
