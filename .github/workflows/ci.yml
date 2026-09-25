@@ -23,7 +23,8 @@ jobs:
         run: pytest -v
 
   build:
-    runs-on: ubuntu-latest
+    # Arm runner: the EC2 server is Arm (t4g), so the image must be arm64
+    runs-on: ubuntu-24.04-arm
     needs: test
     steps:
       - uses: actions/checkout@v4
